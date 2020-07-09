@@ -1,0 +1,67 @@
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.image {
+  width: 45%;
+  display: inline-block;
+}
+.text {
+  font-family: 'Inter UI';
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  width: 45%;
+  display: inline-block;
+}
+.button {
+  margin: 4rem auto 0 auto;
+}
+.button ion-icon {
+  font-size: 2rem;
+}
+.button p {
+  font-size: 2.3rem;
+  display: inline;
+}
+
+/*featured section*/
+.featured {
+  height: 80vh;
+}
+.featured h3 {
+  font-family: Inconsolata;
+}
+.featured .flex {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/*mobile @media query*/
+@media (max-width: 755px){
+  .community {
+    flex-direction: column;
+  }
+  .image {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+  .text {
+    width: 90%;
+    font-size: 1.5rem;
+    text-align: justify;
+  }
+  .button {
+    margin: 2rem auto 2rem auto;
+    width: 20rem;
+    max-width: 80vw;
+  }
+  .button ion-icon {
+    font-size: 6vw;
+  }
+  .button p {
+    font-size: 7.3vw;
+    display: inline;
+  }
+}

@@ -1,0 +1,12 @@
+/**
+ * Implement Gatsby's Node APIs in this file.
+ *
+ * See: https://www.gatsbyjs.org/docs/node-apis/
+ */
+
+ exports.onCreateNode = ({node}) => {
+   if (node.internal.type === 'MarkdownRemark') {
+     const fileNode = getNode(node.parent)
+     console.log('\n', fileNode.relativePath)
+   }
+ }
