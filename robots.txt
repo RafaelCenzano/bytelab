@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://bytelab.rafaelcenzano.com/sitemap.xml
