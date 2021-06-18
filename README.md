@@ -1,4 +1,4 @@
-![Byte Lab Logo](https://bytelab.rafaelcenzano.com/favicon-32x32.png?v=b6f0cbae03e21121dadbed4b32992c25)
+![Byte Lab Logo](https://github.com/RafaelCenzano/bytelab/blob/master/icons/icon-512x512.png)
 # Byte Lab
 
 Host Byte Lab's website statically.
